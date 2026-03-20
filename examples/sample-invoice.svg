@@ -1,0 +1,59 @@
+<svg width="1200" height="1600" viewBox="0 0 1200 1600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1600" fill="#f9f9f7"/>
+  <rect x="55" y="55" width="1090" height="1490" rx="14" fill="#fffefc" stroke="#d9d6cf" stroke-width="4"/>
+  <text x="90" y="135" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" fill="#1d2433">Northwind Field Services</text>
+  <text x="90" y="180" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#536072">Invoice for on-site maintenance and sensor calibration</text>
+
+  <text x="840" y="120" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#536072">Invoice No.</text>
+  <text x="840" y="154" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" fill="#111827">INV-2048</text>
+  <text x="840" y="205" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#536072">Date</text>
+  <text x="840" y="239" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#111827">2026-03-20</text>
+
+  <text x="90" y="275" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#111827">Bill To</text>
+  <text x="90" y="315" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#1f2937">Acme Robotics APAC</text>
+  <text x="90" y="350" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#4b5563">12 Battery Road, Singapore</text>
+  <text x="90" y="385" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#4b5563">attn: Facilities + Automation Ops</text>
+
+  <text x="90" y="470" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#111827">Line Items</text>
+  <rect x="90" y="500" width="1020" height="62" fill="#e5eefc" stroke="#b8c4d9" stroke-width="2"/>
+  <text x="115" y="540" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1f2937">Description</text>
+  <text x="760" y="540" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1f2937">Qty</text>
+  <text x="860" y="540" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1f2937">Unit</text>
+  <text x="980" y="540" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1f2937">Total</text>
+
+  <g font-family="Arial, Helvetica, sans-serif" fill="#1f2937" font-size="24">
+    <rect x="90" y="562" width="1020" height="66" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+    <text x="115" y="604">Camera recalibration batch A</text>
+    <text x="772" y="604">3</text>
+    <text x="850" y="604">420.00</text>
+    <text x="980" y="604">1260.00</text>
+
+    <rect x="90" y="628" width="1020" height="66" fill="#fbfbfa" stroke="#d1d5db" stroke-width="1"/>
+    <text x="115" y="670">Sensor drift validation + report</text>
+    <text x="772" y="670">1</text>
+    <text x="850" y="670">780.00</text>
+    <text x="980" y="670">780.00</text>
+
+    <rect x="90" y="694" width="1020" height="66" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+    <text x="115" y="736">Emergency on-site dispatch</text>
+    <text x="772" y="736">1</text>
+    <text x="850" y="736">250.00</text>
+    <text x="980" y="736">250.00</text>
+  </g>
+
+  <text x="820" y="860" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#4b5563">Subtotal</text>
+  <text x="980" y="860" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#111827">2290.00</text>
+  <text x="820" y="910" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#4b5563">Tax</text>
+  <text x="980" y="910" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#111827">137.40</text>
+  <line x1="810" y1="935" x2="1090" y2="935" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="820" y="990" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#111827">Total Due</text>
+  <text x="950" y="990" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#0f172a">2427.40</text>
+
+  <text x="90" y="1130" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#111827">Payment notes</text>
+  <text x="90" y="1172" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#374151">Wire reference: ACME-SG-2048</text>
+  <text x="90" y="1208" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#374151">Ops contact: maya.wong@northwindfs.example</text>
+  <text x="90" y="1244" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#374151">Service tag: CAM-77 / SITE-03 / RACK-B</text>
+
+  <rect x="100" y="1335" width="245" height="105" rx="10" fill="none" stroke="#c2410c" stroke-width="8" transform="rotate(-8 222 1388)"/>
+  <text x="120" y="1399" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#c2410c" transform="rotate(-8 222 1388)">PAID</text>
+</svg>

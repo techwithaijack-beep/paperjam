@@ -1,0 +1,11 @@
+Paperjam: chaos engineering for OCR.
+
+It fuzzes a document into hostile variants like glare, highlights, stamps, blur, copier streaks, and messaging-app compression, then runs local OCR and shows which failure mode actually breaks the page.
+
+The interesting shift in Document AI right now is not just GLM-OCR vs OpenOCR vs LlamaParse.
+It’s whether your stack survives ugly real documents after the model swap.
+
+Recent benchmark signal from SAP + Stanford: stronger multimodal stacks still fail in very specific document ways.
+So I built a local harness for robustness, not another parser.
+
+Repo: https://github.com/PLACEHOLDER/paperjam

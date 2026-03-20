@@ -1,0 +1,29 @@
+{
+  "name": "paperjam",
+  "version": "0.1.0",
+  "description": "Chaos engineering for OCR: fuzz document images, run local OCR, and generate a fragility report.",
+  "type": "module",
+  "bin": {
+    "paperjam": "bin/paperjam.js"
+  },
+  "scripts": {
+    "demo": "node ./bin/paperjam.js demo",
+    "start": "node ./bin/paperjam.js demo",
+    "test": "node --test"
+  },
+  "keywords": [
+    "ocr",
+    "document-ai",
+    "vlm",
+    "idp",
+    "fuzzing",
+    "chaos-engineering",
+    "tesseract"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^14.0.0",
+    "sharp": "^0.34.4",
+    "tesseract.js": "^6.0.1"
+  }
+}
