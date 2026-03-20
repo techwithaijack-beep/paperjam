@@ -110,7 +110,7 @@ It is deeper integration into real document engineering workflows:
 
 ## Repo
 
-PLACEHOLDER
+https://github.com/techwithaijack-beep/paperjam
 
 If you work in OCR, IDP, or Document AI, the useful question is simple:
 

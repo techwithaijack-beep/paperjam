@@ -6,7 +6,7 @@ Instead of asking “which OCR model wins on a clean benchmark?”, it asks:
 
 which stack breaks first when the page gets ugly?
 
-Repo: https://github.com/PLACEHOLDER/paperjam
+Repo: https://github.com/techwithaijack-beep/paperjam
 
 2. The live builder conversation keeps centering on named model swaps:
 - GLM-OCR
@@ -18,6 +18,8 @@ That matters.
 
 But the more useful operator question is:
 what changes in reliability after glare, highlighting, skew, stamps, and compression hit the page?
+
+That changes stack choice more than another clean benchmark chart does.
 
 3. Recent signal that pushed me here:
 SAP + Stanford’s “OCR or Not? Rethinking Document Information Extraction in the MLLMs Era” shows that better multimodal models do not magically erase structural/failure-mode problems.
@@ -54,6 +56,6 @@ That changes stack choice, rollback discipline, and CI design.
 - region heatmaps
 
 8. Repo again:
-https://github.com/PLACEHOLDER/paperjam
+https://github.com/techwithaijack-beep/paperjam
 
 If you build in OCR / IDP / Document AI, I’d love to know which real-world document failure mode costs you the most.
