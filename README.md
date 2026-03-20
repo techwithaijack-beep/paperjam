@@ -1,5 +1,7 @@
 # Paperjam
 
+![Paperjam social card](docs/paperjam-card.png)
+
 **Chaos engineering for OCR.**
 
 Most document AI teams benchmark clean PDFs, swap OCR/VLM models, and hope production looks the same.
